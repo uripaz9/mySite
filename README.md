@@ -1,6 +1,6 @@
 <h1>mySite</h1>
 
-Created with <a>Velo</a>
+Created with <a href="url">Velo</a>
 
 <h2>First Time Setup</h2>
 
@@ -34,4 +34,4 @@ Once your code is ready use <code>commit</code> and <code>push</code> git comman
 
 <h2>Learn More</h2>
 
-You can learn more in our <a>Help Center Documentation</a>
+You can learn more in our <a href="url">Help Center Documentation</a>
