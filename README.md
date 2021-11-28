@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # mySite
 
 Created with <a href="url">Velo</a>
@@ -17,6 +18,8 @@ This command will set up your development environment to start working with Velo
 
 ## Available Scripts
 =======
+=======
+>>>>>>> origin/main
 <h1>mySite</h1>
 
 Created with <a href="url">Velo</a>
@@ -34,6 +37,9 @@ Clone your site into the project directory
 This command will set up your development environment to start working with Velo code.
 
 <h2>Available Scripts</h2>
+<<<<<<< HEAD
+>>>>>>> origin/main
+=======
 >>>>>>> origin/main
 
 In the project directory, you can run:
@@ -43,7 +49,11 @@ In the project directory, you can run:
 This command will continuously fetch online changes in real time to you local environment.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### <code>npx velo open-preview</code>
+=======
+<h3><code>npx velo open-preview</code></h3>
+>>>>>>> origin/main
 =======
 <h3><code>npx velo open-preview</code></h3>
 >>>>>>> origin/main
@@ -57,7 +67,11 @@ If you add more code changes you can refresh the preview tab in order to run you
 Once your code is ready use <code>commit</code> and <code>push</code> git commands to stream your local changes back to the editor to make them available to your team members.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Learn More
+=======
+<h2>Learn More</h2>
+>>>>>>> origin/main
 =======
 <h2>Learn More</h2>
 >>>>>>> origin/main
