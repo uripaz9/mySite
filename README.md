@@ -25,7 +25,7 @@ This command will continuously fetch online changes in real time to you local en
 
 ### <code>npx velo open-preview</code>
 
-This command will open a browser tab of the editor preview mode running your local code changes and the current online version. 
+This command will open a browser tab of the editor preview mode running your local code changes and the current UI version from the online editor. 
 
 If you add more code changes you can refresh the preview tab in order to run your latest code changes.
 
