@@ -19,7 +19,7 @@ This command will set up your development environment to start working with Velo
 
 In the project directory, you can run:
 
-### <code>pull-online-changes --watch</code>
+### <code>npx velo pull-online-changes --watch</code>
 
 This command will continuously fetch online changes in real time to you local environment.
 
