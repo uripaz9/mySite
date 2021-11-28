@@ -1,0 +1,13 @@
+{
+  "name": "mysite",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "velo-cli": "^0.2.10-alpha.0",
+    "velo-types": "^0.1.100"
+  },
+  "scripts": {
+    "pull-online-changes": "pull-online-changes --watch",
+    "open-preview": "npx velo open-preview",
+  }
+}
