@@ -9,5 +9,8 @@
   "scripts": {
     "pull-online-changes": "pull-online-changes --watch",
     "open-preview": "npx velo open-preview",
+  },
+  "velo": {
+    "siteId": "msid"
   }
 }
