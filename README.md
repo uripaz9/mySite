@@ -4,7 +4,7 @@ Created with <a href="url">Velo</a>
 
 You can clone your site code locally and work on any IDE. Online code editor will be in read only  and every push to main branch of your repository from your local environment will automatically update your site.
 
-## Quick Start
+## Quick Setup
 
 In order to start code locally, run the following:
 
