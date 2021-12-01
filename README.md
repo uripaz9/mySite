@@ -1,4 +1,3 @@
-
 # ✨ mySite ✨
 
 Created with <a href="url">Velo</a>
@@ -9,11 +8,11 @@ You can clone your site code locally and work on any IDE. Online code editor wil
 
 In order to start code locally, run the following:
 
-<b><code>git clone {your-repository-url}</code></b>
+       git clone <your-repository-url>
 
 Clone your site into the project directory
 
-<b><code>npx velo init</code></b>
+       npx velo init
 
 This command will set up your development environment to start working with Velo code.
 
@@ -21,11 +20,11 @@ This command will set up your development environment to start working with Velo
 
 In the project directory, you can run:
 
-<b><code>npx velo pull-online-changes --watch</code></b>
+       npx velo pull-online-changes --watch
 
 This command will continuously fetch online changes in real time to you local environment.
 
-<b><code>npx velo open-preview</code></b>
+       npx velo open-preview
 
 This command will open a browser tab of the editor preview mode running your local code changes and the current UI version from the online editor. 
 
