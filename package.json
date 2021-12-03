@@ -1,5 +1,5 @@
 {
-  "name": "mysite",
+  "name": "local-mysite2",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
@@ -7,8 +7,8 @@
     "velo-types": "^0.1.100"
   },
   "scripts": {
-    "pull-online-changes": "pull-online-changes --watch",
-    "open-preview": "npx velo open-preview",
+    "get-ui-changes": "get-ui-changes --watch",
+    "open-preview": "npx velo open-preview"
   },
   "velo": {
     "siteId": "msid"
