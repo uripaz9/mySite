@@ -29,11 +29,13 @@ Fetch continuously online changes in real time to you local environment.
 
        npx velo get-ui-changes --watch
        
-Open a browser tab of the editor preview mode running your local code changes and the current UI version from the online editor. 
+Open the editor preview mode running your local code changes and the current UI version from the online editor. 
 
        npx velo open-preview
+       
+Open a test site running your local code changes and the current UI version from the online editor. 
 
-If you make any code changes you can refresh the preview tab in order to run your latest code changes.
+       npx velo open-test-site
 
 <hr>
 
