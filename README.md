@@ -20,7 +20,6 @@ In order to start code locally, run the following:
 
        npx velo init
 
-
 ## Develop Locally 📝
 
 In the project directory, you can:

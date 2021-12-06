@@ -8,9 +8,11 @@
   },
   "scripts": {
     "get-ui-changes": "get-ui-changes --watch",
-    "open-preview": "npx velo open-preview"
+    "open-preview": "npx velo open-preview",
+    "open-test-site": "npx velo open-test-site"
   },
   "velo": {
     "siteId": "msid"
   }
 }
+
