@@ -13,6 +13,8 @@
   },
   "velo": {
     "siteId": "msid"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
-
