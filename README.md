@@ -1,52 +1,65 @@
-# ✨ mySite ✨
+# localDevelopment
 
-Created with <a href="url">Velo</a>
+Velo’s localDevelopment platform allows you to work locally and code your Wix site using any IDE. 
 
-You can clone your site code locally and work on any IDE.
+## Getting Started
 
-## Quick Setup 🏎
+Before reading this document, make sure you followed the steps in the Github onboarding section of the Editor, and successfully connected your Wix site to Github. 
 
-In order to start code locally, run the following:
+## Setup 
 
-1. Clone your site:
+To start coding locally, you need to clone your site, navigate to your site file’s directory, and initialize the velo environment into your local environment. 
+
+Open your IDE and run the following CLI commands:
 
        git clone <your-repository-url>
-       
-2. Open your site directory:
-
        cd <site-directory>
-       
-3. Set up your environment:
-
        npx velo init
 
-## Develop Locally 📝
+After running these commands, you can now start developing in your IDE. 
 
-In the project directory, you can:
+## Basic Usage
 
-Fetch continuously online changes in real time to you local environment.
+In the Github section of the Velo Sidebar you can see your site’s Github repository and the main branch. Note that the Editor is tied to the main branch. To learn more about how you can work with other branches, click here. 
+Each time you push your local code to Github, the code will be automatically reflected in the Editor under Commit History.
+When you publish your site, the latest code version from your main branch is published, and you can see the changes on your live site. 
 
-       npx velo get-ui-changes --watch
-       
-Open the editor preview mode running your local code changes and the current UI version from the online editor. 
+## Preview your Local Changes
+
+There are 2 ways to preview your local changes: 
+
+
+**Using Wix Preview**
+
+
+Run the following CLI command to open your site in preview mode and view your local code changes. Note that your local code changes and any updates in the Editor such as changes in the UI are automatically reflected in the preview tab. 
+
 
        npx velo open-preview
-       
-Open a test site running your local code changes and the current UI version from the online editor. 
+
+
+**Using a test site**
+
+Run the following CLI command to open a test site with your local code changes. Note that your local code changes and any updates in the Editor such as changes in the UI are automatically reflected on the test site. 
+
+
 
        npx velo open-test-site
 
-<hr>
 
-Once your code is ready use <code>commit</code> and <code>push</code> git commands to stream your local changes back to the editor to make them available to your team members.
+## Fetch Changes
 
-## Editor Operation that modify code ⚠️
+Making changes to the UI on your Wix site, such as changing the name of a $w() element can affect your code. To make sure that your Wix site elements and local code are in sync, run the following CLI command in your IDE to continuously fetch real time changes to your local environment. 
 
-When the designer working online makes operations that modify code, the editor will commit and push the following changes to the master branch:
-1. Add new page
-2. Duplicate page with code
-3. Delete page
+       npx velo get-ui-changes --watch
+       
+
+## Publish Changes
+
+To publish your code changes, push your local code changes to Github, and then publish your Wix site. You’ll then see the latest code version from the main branch on your live site. 
+
 
 ## Learn More
 
-You can learn more in our <a href="url">Help Center Documentation</a>
+See our [Help Center Documentation]() to learn more.
+
