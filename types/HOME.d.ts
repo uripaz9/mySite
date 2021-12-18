@@ -2,7 +2,6 @@ type HOMEMap = {
     "#page1": $w.Page;
     "#columnStrip1": $w.ColumnStrip;
     "#column1": $w.Column;
-    "#text13": $w.Text;
     "#image6": $w.Image;
     "#text11": $w.Text;
     "#image5": $w.Image;
