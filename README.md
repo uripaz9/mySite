@@ -1,6 +1,6 @@
-# localDevelopment
+# Velo Local Development
 
-Velo’s localDevelopment platform allows you to work locally and code your Wix site using any IDE. 
+Work locally and code your Wix site using any IDE. 
 
 ## Getting Started
 
