@@ -3,7 +3,6 @@ type HOMEMap = {
     "#columnStrip1": $w.ColumnStrip;
     "#column1": $w.Column;
     "#image6": $w.Image;
-    "#text11": $w.Text;
     "#image5": $w.Image;
     "#text10": $w.Text;
     "#text9": $w.Text;
