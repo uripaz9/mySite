@@ -2,7 +2,6 @@ type ApartmentsMap = {
     "#page1": $w.Page;
     "#columnStrip1": $w.ColumnStrip;
     "#column1": $w.Column;
-    "#text13": $w.Text;
     "#image6": $w.Image;
     "#text12": $w.Text;
     "#text11": $w.Text;
