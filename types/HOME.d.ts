@@ -5,7 +5,6 @@ type HOMEMap = {
     "#image6": $w.Image;
     "#image5": $w.Image;
     "#text10": $w.Text;
-    "#text9": $w.Text;
     "#image4": $w.Image;
     "#text8": $w.Text;
     "#text7": $w.Text;
