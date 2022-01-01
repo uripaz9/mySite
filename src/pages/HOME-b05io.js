@@ -1,10 +1,9 @@
-// API Reference: https://www.wix.com/velo/reference/api-overview/introduction
-// “Hello, World!” Example: https://learn-code.wix.com/en/article/1-hello-world
+//Velo API Reference: https://www.wix.com/velo/reference/api-overview/introduction)
 
 $w.onReady(function () {
-	// Write your JavaScript here
+	// Write your Javascript code here using Velo framework
 
-	// To select an element by ID use: $w('#elementID')
+	// Print hello world: console.log("Hello world!"")
 
-	// Click 'Preview' to run your code 
+	// Call functions on page elements: $w('#button1').label = "Click me!"
 });
