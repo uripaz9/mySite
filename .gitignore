@@ -4,8 +4,7 @@
 /node_modules
 /.vscode
 types/
-.idea/
-tsconfig.json/
+/tsconfig.json
 
 
 # logs
