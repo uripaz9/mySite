@@ -44,7 +44,7 @@ cd wixLife
 3. Run the init command to add the necessary dependencies, including node packages, Velo CLI and the types folder necessary to support Velo auto-complete and error indications. Note that running this command may prompt you to log in to Wix. 
 
 ```js
-npx velo init
+npm install
 ```
 Now you can start developing in your IDE. 
 
