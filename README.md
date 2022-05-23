@@ -1,4 +1,5 @@
 # Velo
+
 Develop your site as a team using any IDE and Dev Editor.
 
 ## Table of contents
@@ -19,75 +20,69 @@ Develop your site as a team using any IDE and Dev Editor.
 * [Community]()
 * [Learn More]()
 
-## Before Getting Started
 
-* Make sure you successfully connected your site to Github in the Online Editor. 
-* After connecting to GitHub, you’ll only be able to edit code in the external IDE. Code in the Online Editor will be in read-only mode.
-* The online Editor is tied to origin/main branch. The code is automatically updated upon every push to origin/main
+## Before Getting Started
+Before getting started, make sure you have node 17 or above installed, as well ass npm and Git.
 
 ## Setup 
-
 To set up your local environment and start coding locally, run the following CLI commands in your terminal:
 
-1. Clone your site 
+Clone your site 
 
   ```js
-git clone https://github.com/shail/wixLife.git
+git clone <your-repository-url>
   ```
 
-2. Navigate to your project directory
+Navigate to your project directory
 
 ```js
-cd wixLife
+cd <site-directory>
 ```
 
-3. Run the init command to add the necessary dependencies, including node packages, Velo CLI and the types folder necessary to support Velo auto-complete and error indications. Note that running this command may prompt you to log in to Wix. 
+Run the ‘npm install’ command to add the necessary dependencies, including node packages, Velo CLI and the types folder necessary to support Velo auto-complete and error indications. Note that running this command may prompt you to log in to Wix. 
 
 ```js
-npm install
+npm install -g velo-cli-prototype
 ```
 Now you can start developing in your IDE. 
 
 ## Editor X Revisions
-The repository contains the site's code and a reference to an Editor X revision in the velo.config.json file. Editor X revision represents the state of your site design and schemas. While designing in Editor X, both Online & Dev, revisions are periodically created. In the Dev Editor you also have a ‘Sync Changes’ button, which creates new revisions and updates it in your local code.
+An Editor X Revision is the state of your site’s design, schemas and applications. Your code contains a reference to a revision in the velo.config.json file. 
+In order to sync your local code with the latest editor changes, done by you or others, click on ‘sync changes’ button in the dev editor. When you sync your local code with the latest revision, you can address them in your code.
 
 ## Dev Editor 
-
-To make editor changes while editing code locally open the Dev Editor by running 
+To make editor changes at the same time as editing local code, open the Dev Editor by running 
 
   ```js
 velo dev
   ``` 
+The Dev Editor will always run the latest Editor X revision, which might be different from the revision stated in your local code.To avoid errors, you should sync your changes in IDE to update to the latest revision, by clicking on the ‘sync changes’ button in th Dev Editor, or pressing ‘s’ in the velo CLI, before editing code.
 
-Dev Editor runs your local code with the latest Editor X revision from the Online Editor, and allows you to make editor changes while editing code. You will be working in concurrent mode with other users - each editor change that you make will be reflected to all other team members and vice versa. Note that your local code is isolated and available only to you.
+Note: When working with teammates, you will be working in concurrent mode. This means each change you make in the Dev Editor will reflect to all other teammates, and vice versa. However, code changes in your IDE will not be updated to others until you push them to origin/main 
 
-After making the needed changes (design/schema/ids) in the Dev Editor, you have to click on the ‘sync changes’ button in the editor top bar, so that your local code will point to an Editor X Revision that contains your latest editor changes.
-‘sync changes’  creates a new revision and updates your local code files with the newly created revision number, as well as, type files that correspond to the new design.
+You can sync your IDE changes with the ‘Sync Changes’ button in the editor top bar. This will ensure your local code is synchronized with the latest changes in the Editor X revision.  
 
-Hot reload - While ‘velo dev’ command is running, each time you edit code in your preferred IDE, the Dev Editor automatically updates with these changes.
+Hot reload - While ‘velo dev’ command is running, each time you edit code in your IDE, the Dev Editor automatically updates with these changes.
 
-## Preview Your Site 
+## Online Editor
+The Online Editor is tied to the origin/main branch, and updates automatically with the latest code change pushed to origin/main. Note that if an older revision was pushed to git, this will not affect the revision in the Online Editor.
+Once the site is connected to GitHub, you’ll only be able to edit code in the external IDE. Code in the Online Editor will be in read-only mode.
+The Online Editor will always reflect the most up to date revision. 
 
+
+## Preview Your local code changes 
 When developing locally, you have several options to preview and test your local changes:
 
-__Live preview__ - Open a temporary version of your application or site in a production environment, with a hot reload mechanism, which automatically syncs any code change done in your local IDE.
-
-  ```js
-velo live-preview
-  ``` 
-__Deploy preview__ - Create a new shareable version of your application or site in a production environment. This version will be based on your local code and the Editor X Revision stated in velo.config.json file.
+Preview mode in Dev Editor - by entering the preview mode in Dev Editor you can see a preview of your site with your most current code and the latest Editor X Revision, interact with your site and debug your site’s code.
+Deploy preview - Create a new shareable version of your application or site in a production environment. This version will be based on your local code and the Editor X Revision stated in velo.config.json file.
 
   ```js
 velo deploy-preview
   ``` 
 
-__Preview mode in Dev Editor__ - by entering the preview mode in Dev Editor you can see a preview of your site with your most current code and the latest Editor X Revision, interact with your site and debug your site’s code.
-
-
 ## Go to Production 
-
 To publish your local code changes, do the following: 
-Push your local code changes to origin/main by running the Git command, `git push`. 
+Push your local code changes to origin/main. 
 Note that the Editor is tied to the main branch, and updates with the latest code change pushed to origin/main.
 Run ‘velo publish’ CLI command to publish the latest commit in origin master, and the editor revision stated as part of this commit. Alternatively, you can click Publish in the Online Editor. Note that clicking Publish in the Online Editor publishes the latest Editor X Revision, along with the latest code changes in the origin/main branch. 
 
@@ -95,25 +90,13 @@ Run ‘velo publish’ CLI command to publish the latest commit in origin master
 velo publish
   ``` 
 
-## Work with your team
+## Invite Collaborators 
+To allow other teammates access your github repository, edit code and make changes in the editor, you need to
+Add them as Contributors to your site. Contributors need to be assigned the Admin role to be able to edit the site and the code. 
+Invite them as collaborators on your github repository via Github. Note that you can have a different email address for Wix and Github accounts. Learn more https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository
 
-To allow teammates to access your GitHub repository, edit code, and make changes to your Editor X site, you’ll need to both:
-1. Add them as contributors in the Editor as Admin role
-1. Invite them as collaborators on your repository in GitHub.
-
-[Learn more about working with your team]()
-
-## Community
-
-[Discord]()
-
-[Twitter]()
-
-## Learn More
-
-See our [Help Center Documentation]().
-
-Watch [video tutorials]().
+### Learn More
+See our [Help Center Documentation]() to learn more.
 
 
 
