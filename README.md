@@ -22,7 +22,7 @@ Develop your site as a team using any IDE and Live Editor.
 
 
 ## Before Getting Started
-Before getting started, make sure you have node 17 or above installed, as well ass npm and Git.
+Before getting started, make sure you have node 17 or above installed, as well as npm and Git.
 
 ## Setup 
 To set up your local environment and start coding locally, run the following CLI commands in your terminal:
