@@ -44,6 +44,13 @@ Run the ‘npm install’ command to add the necessary dependencies, including n
 ```js
 npm install -g velo-cli-prototype
 ```
+
+Start the Live Editor
+
+```js
+velo dev
+```
+
 Now you can start developing in your IDE. 
 
 ## Editor X Revisions
