@@ -89,9 +89,11 @@ velo deploy-preview
 
 ## Go to Production 
 To publish your local code changes, do the following: 
-Push your local code changes to origin/main. 
+1. <code>push</code> your local code changes to origin/main. 
 Note that the Editor is tied to the main branch, and updates with the latest code change pushed to origin/main.
-Run ‘velo publish’ CLI command to publish the latest commit in origin master, and the editor UI version stated as part of this commit. Alternatively, you can click Publish in the Online Editor. Note that clicking Publish in the Online Editor publishes the latest Editor X UI version, along with the latest code changes in the origin/main branch. 
+2. In order to publish your changes you have 2 alternatives:
+a. Run ‘velo publish’ CLI command to publish the latest commit in origin master, and the editor UI version stated as part of this commit.
+b. Click Publish in the Online Editor. Note that clicking Publish in the Online Editor publishes the latest Editor X UI version, along with the latest code changes in the origin/main branch. 
 
   ```js
 velo publish
