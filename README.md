@@ -26,7 +26,9 @@ Run the ‘npm install’ command to add the necessary dependencies, including n
 npm install -g velo-cli-prototype
 ```
 
-Start the Live Editor
+Start the Live Editor to make editor changes at the same time as editing local code.
+
+
 
 ```js
 velo dev
@@ -39,11 +41,7 @@ UI version is the state of your site’s design, schemas and applications. Your 
 In order to sync your local code with the latest editor changes, done by you or others, click on ‘sync changes’ button in the Live editor. When you sync your local code with the latest UI version, you can address them in your code.
 
 ## Live Editor 
-To make editor changes at the same time as editing local code, open the Live Editor by running 
 
-  ```js
-velo dev
-  ``` 
 The Live Editor will always run the latest Editor X UI version, which might be different from the UI version stated in your local code.To avoid errors, you should sync your changes in IDE to update to the latest UI version, by clicking on the ‘sync changes’ button in th Live Editor, or pressing ‘s’ in the velo CLI, before editing code.
 
  **Concurrent mode:**
