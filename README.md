@@ -1,25 +1,6 @@
-# Velo
+# Wix CLI
 
 Develop your site as a team using any IDE and Live Editor.
-
-## Table of contents
-
-* [Before Getting Started]()
-* [Setup]()
-* [Live Editor]()
-* [Editor X Revisions]()
-* [Preview Your Site]()
-* [Go to Production]()
-* Commands:
-  * [<code>velo dev</code>]()
-  * [<code>velo install-package</code>]()
-  * [<code>velo live-preview</code>]()
-  * [<code>velo deploy-preview</code>]()
-  * [<code>velo publish</code>]()
-* [Work with your team]()
-* [Community]()
-* [Learn More]()
-
 
 ## Before Getting Started
 Before getting started, make sure you have node 17 or above installed, as well as npm and Git.
@@ -65,23 +46,34 @@ velo dev
   ``` 
 The Live Editor will always run the latest Editor X UI version, which might be different from the UI version stated in your local code.To avoid errors, you should sync your changes in IDE to update to the latest UI version, by clicking on the ‘sync changes’ button in th Live Editor, or pressing ‘s’ in the velo CLI, before editing code.
 
-Note: When working with teammates, you will be working in concurrent mode. This means each change you make in the Live Editor will reflect to all other teammates, and vice versa. However, code changes in your IDE will not be updated to others until you push them to origin/main 
+ **Concurrent mode:**
+ 
+When working with teammates, you will be working in concurrent mode. This means each change you make in the Live Editor will reflect to all other teammates, and vice versa. However, code changes in your IDE will not be updated to others until you push them to <code>origin/main</code>
 
+ **Sync Live Editor changes into your IDE:**
+ 
 You can sync your IDE changes with the ‘Sync Changes’ button in the editor top bar. This will ensure your local code is synchronized with the latest changes in the Editor X UI version.  
 
+ **Sync code changes into the Live Editor:**
+ 
 Hot reload - While ‘velo dev’ command is running, each time you edit code in your IDE, the Live Editor automatically updates with these changes.
 
 ## Online Editor
-The Online Editor is tied to the origin/main branch, and updates automatically with the latest code change pushed to origin/main. Note that if an older UI version was pushed to git, this will not affect the UI version in the Online Editor.
+The Online Editor is tied to the <code>origin/main</code> branch, and updates automatically with the latest code change pushed to <code>origin/main</code>. Note that if an older UI version was pushed to git, this will not affect the UI version in the Online Editor.
 Once the site is connected to GitHub, you’ll only be able to edit code in the external IDE. Code in the Online Editor will be in read-only mode.
 The Online Editor will always reflect the most up to date UI version. 
 
 
 ## Preview Your local code changes 
-When developing locally, you have several options to preview and test your local changes:
+When developing locally, you have 2 options to preview and test your local changes:
 
-Preview mode in Live Editor - by entering the preview mode in Live Editor you can see a preview of your site with your most current code and the latest Editor X UI version, interact with your site and debug your site’s code.
-Deploy preview - Create a new shareable version of your application or site in a production environment. This version will be based on your local code and the Editor X UI version stated in velo.config.json file.
+**1. Preview mode in Live Editor:**
+
+By entering the preview mode in Live Editor you can see a preview of your site with your most current code and the latest Editor X UI version, interact with your site and debug your site’s code.
+
+**2. Deploy preview:**
+
+Create a new shareable version of your application or site in a production environment. This version will be based on your local code and the Editor X UI version stated in velo.config.json file.
 
   ```js
 velo deploy-preview
@@ -89,15 +81,25 @@ velo deploy-preview
 
 ## Go to Production 
 To publish your local code changes, do the following: 
-1. <code>push</code> your local code changes to origin/main. 
-Note that the Editor is tied to the main branch, and updates with the latest code change pushed to origin/main.
-2. In order to publish your changes you have 2 alternatives:
-a. Run ‘velo publish’ CLI command to publish the latest commit in origin master, and the editor UI version stated as part of this commit.
-b. Click Publish in the Online Editor. Note that clicking Publish in the Online Editor publishes the latest Editor X UI version, along with the latest code changes in the origin/main branch. 
+
+1 - <code>commit</code> and <code>push</code> your local code changes to <code>origin/main</code>. 
+Note that the Editor is tied to the main branch, and updates with the latest code change pushed to <code>origin/main</code>.
+
+2 - In order to publish your changes you have 2 alternatives:
+
+Option A - Publish using the CLI:
+
+Run ‘velo publish’ CLI command to publish the latest commit in origin master, and the editor UI version stated as part of this commit.
 
   ```js
 velo publish
   ``` 
+
+Option B - Publish using the the Publish button via the Online Editor:
+
+Click Publish in the Online Editor. Note that clicking Publish in the Online Editor publishes the latest Editor X UI version, along with the latest code changes in the <code>origin/main</code> branch. 
+
+
 
 ## Invite Collaborators 
 To allow other teammates access your github repository, edit code and make changes in the editor, you need to
