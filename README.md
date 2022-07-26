@@ -87,7 +87,7 @@ Note that the Editor is tied to the main branch, and updates with the latest cod
 
 Option A - Publish using the CLI:
 
-Run ‘velo publish’ CLI command to publish the latest commit in origin master, and the editor UI version stated as part of this commit.
+Run ‘velo publish’ CLI command to publish the latest commit in <code>origin/main</code>, and the editor UI version stated as part of this commit.
 
   ```js
 velo publish
