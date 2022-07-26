@@ -62,7 +62,7 @@ Once the site is connected to GitHub, you’ll only be able to edit code in the 
 The Online Editor will always reflect the most up to date UI version. 
 
 
-## Preview Your local code changes 
+## Preview your local code changes 
 When developing locally, you have 2 options to preview and test your local changes:
 
 **1. Preview mode in Live Editor:**
@@ -77,7 +77,7 @@ Create a new shareable version of your application or site in a production envir
 velo deploy-preview
   ``` 
 
-## Publish your changes
+## Publish
 To publish your local code changes, do the following: 
 
 1 - <code>commit</code> and <code>push</code> your local code changes to <code>origin/main</code>. 
