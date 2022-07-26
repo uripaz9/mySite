@@ -77,7 +77,7 @@ Create a new shareable version of your application or site in a production envir
 velo deploy-preview
   ``` 
 
-## Go to Production 
+## Publish your changes
 To publish your local code changes, do the following: 
 
 1 - <code>commit</code> and <code>push</code> your local code changes to <code>origin/main</code>. 
