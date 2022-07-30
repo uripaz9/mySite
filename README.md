@@ -37,7 +37,7 @@ velo dev
 Now you can start developing in your IDE. 
 
 ## UI version
-UI version is the state of your site’s design, schemas and applications. Your code contains a reference to a UI version in the velo.config.json file. 
+Your code contains a reference to a UI version in the **velo.config.json** file. UI version is the state of your site’s design, schemas and applications. 
 In order to sync your local code with the latest editor changes, done by you or others, click on ‘sync changes’ button in the Live editor. When you sync your local code with the latest UI version, you can address them in your code.
 
 ## Live Editor 
