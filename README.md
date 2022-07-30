@@ -57,7 +57,7 @@ You can sync your IDE changes with the ‘Sync Changes’ button in the editor t
 Hot reload - While ‘velo dev’ command is running, each time you edit code in your IDE, the Live Editor automatically updates with these changes.
 
 ## Online Editor
-The Online Editor is tied to the <code>origin/main</code> branch, and updates automatically with the latest code change pushed to <code>origin/main</code>. Note that if an older UI version was pushed to git, this will not affect the UI version in the Online Editor.
+The Online Editor is tied to the <code>origin/main</code> branch, and updates automatically with the latest code change **pushed** to <code>origin/main</code>. Note that if an older UI version was pushed to git, this will not affect the UI version in the Online Editor.
 Once the site is connected to GitHub, you’ll only be able to edit code in the external IDE. Code in the Online Editor will be in read-only mode.
 The Online Editor will always reflect the most up to date UI version. 
 
